@@ -37,7 +37,7 @@ export default function Projects() {
 
       <div className='top-container'>
         <div className='words'>
-          <h3>Tower of Hanoi</h3>
+          <h3>7k Movies</h3>
           <p>One of the first applications I made using
             vanilla javascript. Some of the challenges
             of this project was using drag and drop
