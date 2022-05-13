@@ -1,0 +1,23 @@
+.info-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin-top: 50px;
+}
+
+.picture {
+  border: 1px solid #FFCB47;
+  border-radius: 400px;
+  margin-left: 30px;
+  height: 300px;
+  width: 300px;
+}
+.intro{
+  background-color: #9AC2C9;
+  border: 1px solid #FFCB47;
+  border-radius: 10px;
+  padding: 10px;
+  color: #3B4668;
+  margin: 50px;
+}

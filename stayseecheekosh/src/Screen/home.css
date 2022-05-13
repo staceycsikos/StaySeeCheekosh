@@ -1,0 +1,17 @@
+.project-container{
+  display: flex;
+  justify-content: space-around;
+}
+.pro {
+  height: 300px;
+  width: 250px;
+  background-color: aliceblue;
+  border: 1px solid #FFCB47;
+  border-radius: 4px;
+  box-shadow: 0 0 8px black;
+}
+
+.home-intro {
+ text-align: center;
+}
+
