@@ -6,11 +6,10 @@ import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
 import Projects from './Components/Projects/Projects';
 import Home from './Screen/Home';
+
  
   
 function App() {
-
-
   return (
     <div className='App'>
       <Navbar />

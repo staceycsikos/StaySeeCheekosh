@@ -5,6 +5,7 @@
   border-radius: 15px;
   padding: 3 px;
   font-weight: bold;
+  font-size: 20px;
 }
 
 .form-container{
@@ -13,13 +14,36 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 150px;
+  padding: 10px;
+  background-color: #B9D8C2;
+  border: 1px solid #FFCB47;
+  border-radius: 4px;
+  box-shadow: 0 0 8px black;
+  margin-left: 30vw;
+  margin-right: 30vw;
 }
 
 input {
   width: 250px;
+  font-size: 20px;
+  border: 1px solid #FFCB47;
+  margin-bottom: 5px;
+  border-radius: 3px;
 }
 
 textarea{
-  width: 300px;
-  height: 50px
+  width: 30vw;
+  max-width: 38vw;
+  height: 100px;
+  font-size: 20px;
+  border: 2px solid #FFCB47;
+  margin-bottom: 5px;
+  border-radius: 8px;
 }
+
+/* .contact-div{
+ 
+  display: flex;
+  align-items: center;
+} */
