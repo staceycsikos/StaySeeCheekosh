@@ -25,7 +25,7 @@
 }
 
 input {
-  width: 250px;
+  width: 20vw;
   font-size: 20px;
   border: 1px solid #FFCB47;
   margin-bottom: 5px;
@@ -41,9 +41,3 @@ textarea{
   margin-bottom: 5px;
   border-radius: 8px;
 }
-
-/* .contact-div{
- 
-  display: flex;
-  align-items: center;
-} */
