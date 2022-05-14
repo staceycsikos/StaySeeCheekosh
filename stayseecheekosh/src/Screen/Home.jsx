@@ -11,7 +11,7 @@ import movie from '../images/movie.png'
 export default function Home() {
   return (
     <div>
-      <h3 className='intro home-intro'>Hi there! My name is Stacey Csikos (Stay-see Cheek-osh) and I like to create websites </h3>
+      <h3 className='intro home-intro'>Hi there! My name is Stacey Csikos and I like to create websites </h3>
       <div className='project-container'>
 
         <Link to='/projects'><img className='pro'src={hanoi} title='Tower Of Hanoi'/></Link>
