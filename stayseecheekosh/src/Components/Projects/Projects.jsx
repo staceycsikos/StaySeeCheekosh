@@ -20,7 +20,7 @@ export default function Projects() {
             the logic of not allowing a bigger disk go on top
             of a smaller disk.</p>
             <div className='click-box'>
-              <a href="https://staceycsikos.github.io/Lucas-Tower/">Play A Game!</a>
+              <a href="https://staceycsikos.github.io/Lucas-Tower/" target="_blank">Play A Game!</a>
               <a href="https://github.com/staceycsikos/Lucas-Tower" target="_blank">
               <img src={github} className="gitty" /></a>
             </div>
@@ -37,7 +37,7 @@ export default function Projects() {
             done collaboratively. I worked on back end. The part I enjoyed most was entigrating
             user authentication with JSON web tokens. </p>
             <div className='click-box'>
-              <a href="https://earnest-profiterole-786338.netlify.app/gyms">Find a place to Climb!</a>
+              <a href="https://earnest-profiterole-786338.netlify.app/gyms" target="_blank">Find a place to Climb!</a>
               <a href="https://github.com/chiumz9/rock-climbing-app" target="_blank">
               <img src={github} className="gitty" /></a>
             </div>
@@ -55,7 +55,7 @@ export default function Projects() {
             make minimal API calls and filtering the data efficiently are highlights in 
             this project.</p>
             <div className='click-box'>
-              <a href=" https://7kmovies.netlify.app/">Explore a Movie!</a>
+              <a href=" https://7kmovies.netlify.app/" target="_blank">Explore a Movie!</a>
               <a href="https://github.com/staceycsikos/movies" target="_blank">
               <img src={github} className="gitty" /></a>
             </div>
