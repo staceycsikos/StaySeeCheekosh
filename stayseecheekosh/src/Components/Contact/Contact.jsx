@@ -17,7 +17,12 @@ export default function Contact() {
     };
 
   return (
-    <div className='contact-div'>
+    <div className='div-contact'>
+   
+      <a className='email-button' href='mailto:staceycsikos@icloud.com' target="_blank">
+       <button className='send pop'>Pop up your preffered email application </button>
+      </a>
+      <h2 className='or'> Or fill out on this page:</h2>
       <form className='form-container' type='submit' onSubmit={handleSubmit} >
         <input type='text' placeholder='Name' name='name'></input>
         <input type='email' placeholder='Email' name= 'email'></input>
