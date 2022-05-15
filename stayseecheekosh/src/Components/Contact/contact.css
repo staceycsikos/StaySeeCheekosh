@@ -9,9 +9,9 @@
   margin-top: 8px;
 }
 .or{
-  text-decoration: underline; 
   color: #3B4668;
 }
+
 .div-contact{
   display: flex;
   justify-content: center;
@@ -50,4 +50,13 @@ textarea{
   border: 2px solid #FFCB47;
   margin-bottom: 5px;
   border-radius: 8px;
+}
+.linky{
+  height: 20px;
+  width: 60px;
+}
+.social{
+  display: flex;
+  justify-content: space-evenly;
+  width: 20vw;
 }
