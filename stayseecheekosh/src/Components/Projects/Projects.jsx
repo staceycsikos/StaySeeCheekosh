@@ -37,7 +37,7 @@ export default function Projects() {
             done collaboratively. I worked on back end. The part I enjoyed most was entigrating
             user authentication with JSON web tokens. </p>
             <div className='click-box'>
-              <a href="https://earnest-profiterole-786338.netlify.app/gyms" target="_blank">Find a place to Climb!</a>
+              <a href="https://earnest-profiterole-786338.netlify.app/" target="_blank">Find a place to Climb!</a>
               <a href="https://github.com/chiumz9/rock-climbing-app" target="_blank">
               <img src={github} className="gitty" /></a>
             </div>
