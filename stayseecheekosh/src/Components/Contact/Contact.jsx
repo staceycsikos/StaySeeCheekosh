@@ -6,17 +6,6 @@ import linkedin from '../../images/linkedin.png'
 
 export default function Contact() {
 
-  const handleSubmit = (e) => {
-    e.preventDefault(); // Prevents default refresh by the browser
-    emailjs.sendForm('gmail', process.env.REACT_APP_TEMPLATE_ID , e.target, process.env.REACT_APP_USER_ID)
-    .then((result) => {
-    alert("Happy to hear from you! We'll talk soon :)", result.text);
-    },
-    (error) => {
-    alert("An error occurred, Please try again", error.text);
-      });
-    e.target.reset()
-    };
 
   return (
     <div className='div-contact'>
@@ -27,15 +16,10 @@ export default function Contact() {
         <a href="https://www.linkedin.com/in/staceycsikos/" target="_blank">
           <img src={linkedin} className="linky" /></a>
       </div>
-      <h2 className='or'>Email me</h2>
-      <a className='email-button' href='mailto:staceycsikos@icloud.com' target="_blank">
-       <button className='send pop'>Pop up your preffered email application </button>
-      </a>
-      <h2 className='or'> Or fill out on this page:</h2>
-      <form className='form-container' type='submit' onSubmit={handleSubmit} >
-        <input type='text' placeholder='Name' name='name'></input>
-        <input type='email' placeholder='Email' name= 'email'></input>
-        <textarea placeholder='Message' name= 'message'></textarea>
+      <h2 className='or'>Send me a Message</h2>
+      <form className='form-container' type='submit' action="mailto:staceycsikos@icloud.com?subject=MessageFromWebsite" method="post" enctype="text/plain" target="_blank">
+        <input type='text' placeholder='Name' name='Your name '></input>
+        <textarea placeholder='Message' name= 'message '></textarea>
         <button className='send'>Send!</button>
       </form>
     </div>

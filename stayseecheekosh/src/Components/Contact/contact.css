@@ -10,6 +10,7 @@
 }
 .or{
   color: #3B4668;
+  text-align: center;
 }
 
 .div-contact{
@@ -59,4 +60,19 @@ textarea{
   display: flex;
   justify-content: space-evenly;
   width: 20vw;
+}
+
+@media screen and (max-width: 550px) {
+.div-contact{
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+textarea{
+  width: 80vw;
+  max-width: 100vw;
+}
+
+input {
+  width: 60vw;
+}
 }
