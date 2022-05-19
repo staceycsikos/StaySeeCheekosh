@@ -26,17 +26,21 @@ export default function Contact() {
           <img src={github} className="gitty" /></a>
         <a href="https://www.linkedin.com/in/staceycsikos/" target="_blank">
           <img src={linkedin} className="linky" /></a>
+        
       </div>
-      <h2 className='or'>Send me a Mesaage!</h2>
+          <a href='mailto:staceycsikos@icloud.com' target="_blank"><button className='send'>Send Me a Message</button></a>
+
+
+      {/* <h2 className='or'>Send me a Mesaage!</h2> */}
 
       {/* <form className='form-container' type='submit' onSubmit={handleSubmit} > */}
       
-      <form className='form-container' action="mailto:staceycsikos@icloud.com?subject=MessageFromWebsite" method="post" enctype="text/plain" target="_blank">
+      {/* <form className='form-container' action="mailto:staceycsikos@icloud.com?subject=MessageFromWebsite" method="post" enctype="text/plain" target="_blank">
         <input type='text' placeholder='Name' name='name '></input>
         <input type='email' placeholder='Email' name= 'email '></input>
         <textarea placeholder='Message' name= 'message '></textarea>
         <button className='send'>Send!</button>
-      </form>
+      </form> */}
     </div>
   )
 }
