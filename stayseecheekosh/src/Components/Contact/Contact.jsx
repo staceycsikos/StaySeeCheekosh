@@ -20,7 +20,7 @@ export default function Contact() {
 
   return (
     <div className='div-contact'>
-      <h2 className='or'>Find me on theese platforms:</h2>
+      <h2 className='or'>Find me on these platforms:</h2>
       <div className='social'>
         <a href="https://github.com/staceycsikos/" target="_blank">
           <img src={github} className="gitty" /></a>
