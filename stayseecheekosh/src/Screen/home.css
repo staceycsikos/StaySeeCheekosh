@@ -1,7 +1,12 @@
-.project-container{
-  display: flex;
-  justify-content: space-around;
+.home-intro {
+ text-align: center;
+ margin-top: 120px;
 }
+
+.project-intro{
+  text-align: center;
+}
+
 .pro {
   height: 300px;
   width: 250px;
@@ -10,11 +15,11 @@
   border-radius: 4px;
   box-shadow: 0 0 8px black;
 }
-
-.home-intro {
- text-align: center;
- margin-top: 120px;
+.project-container{
+  display: flex;
+  justify-content: space-around;
 }
+
 
 @media screen and (max-width: 550px) {
   .project-container{

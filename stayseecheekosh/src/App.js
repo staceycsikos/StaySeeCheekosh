@@ -4,9 +4,10 @@ import Navbar from './Components/Nabar/Navbar';
 import {Route, Routes} from 'react-router-dom'
 import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
-import Projects from './Components/Projects/Projects';
 import Home from './Screen/Home';
-
+import Project from './Components/Project/Project';
+import Projects from './Components/Projects/Projects';
+import { projectData } from './project';
  
   
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path='/' element={<Home />}/>
         <Route path='/about' element={<About />}/>
         <Route path='/projects' element={<Projects />}/>
+        <Route path='/project/:id' element={<Project />}/>
         <Route path='/contact' element={<Contact />}/>
       </Routes>
     </div>
