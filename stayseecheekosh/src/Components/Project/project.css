@@ -1,20 +1,19 @@
 
 .description{
-  border: 1px solid #FFCB47;
-  width: 90vw;
+  border: 3px solid #FFCB47;
+  width: 80vw;
   background-color: #B9D8C2;
   padding: 10px;
   border-radius: 4px;
-  box-shadow: 0 0 8px black;
+  box-shadow: 0 0 15px black;
 }
 
 .specific-project {
   height: 350px;
-  width: 65vw;
-  background-color: aliceblue;
-  border: 1px solid #FFCB47;
+  width: 50vw;
+  border: 3px solid #FFCB47;
   border-radius: 4px;
-  box-shadow: 0 0 8px black;
+  box-shadow: 0 0 15px black;
 }
 
 .project-container{
