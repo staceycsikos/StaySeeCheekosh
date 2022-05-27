@@ -2,10 +2,13 @@
  text-align: center;
  margin-top: 120px;
  margin-bottom: -70px;
+ margin-left: 25vw;
+ margin-right: 25vw;
 }
 
 .project-intro{
   text-align: center;
+  cursor: pointer;
 }
 
 .pro {
@@ -15,6 +18,9 @@
   border: 1px solid #FFCB47;
   border-radius: 4px;
   box-shadow: 0 0 8px black;
+  margin-bottom: -20px;
+  margin-top: -20px;
+  cursor: pointer;
 }
 .project-container{
   display: flex;

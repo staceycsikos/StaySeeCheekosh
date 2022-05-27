@@ -12,6 +12,11 @@
   text-align: center;
   margin-bottom: -7px;
 }
+.project-title{
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 .project {
   height: 300px;
   width: 250px;
@@ -35,6 +40,10 @@
 .gitty{
   width: 20px;
   height: 20px;
+  cursor: pointer;
+}
+.linkable-saying{
+  cursor: pointer;
 }
 
 .click-box{

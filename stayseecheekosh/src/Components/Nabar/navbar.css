@@ -1,21 +1,5 @@
-
-.nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #B9D8C2;
-  color: #3B4668;
-  font-family: Arial, Helvetica, sans-serif;
-  box-shadow:0 0 5px black;
-  width: 100vw;
-  position: fixed;
-  top: 0;
-}
-
-.name{
-  color: #3B4668;
-  border-bottom-style: solid;
-  border-bottom-color: #FFCB47;
+a{
+  cursor: default;
 }
 .btn-container{
   display: flex;
@@ -31,8 +15,29 @@
   font-weight: bold;
   margin-right: 7px;
   text-decoration: none;
+  cursor: pointer;
 }
 
+.name{
+  color: #3B4668;
+  border-bottom-style: solid;
+  border-bottom-color: #FFCB47;
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #B9D8C2;
+  /* background-color: #d08a32; */
+  color: #3B4668;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow:0 0 5px black;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+}
 @media screen and (max-width: 550px) {
   .nav {
     display: flex;
