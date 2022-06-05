@@ -7,7 +7,6 @@ import Contact from './Components/Contact/Contact';
 import Home from './Screen/Home';
 import Project from './Components/Project/Project';
 import Projects from './Components/Projects/Projects';
-import { projectData } from './project';
  
   
 function App() {
