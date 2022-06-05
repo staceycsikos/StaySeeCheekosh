@@ -28,19 +28,19 @@ export default function Contact() {
           <img src={linkedin} className="linky" /></a>
         
       </div>
-          <a href='mailto:staceycsikos@icloud.com' target="_blank"><button className='send'>Send Me a Message</button></a>
+
 
 
       {/* <h2 className='or'>Send me a Mesaage!</h2> */}
 
       {/* <form className='form-container' type='submit' onSubmit={handleSubmit} > */}
       
-      {/* <form className='form-container' action="mailto:staceycsikos@icloud.com?subject=MessageFromWebsite" method="post" enctype="text/plain" target="_blank">
-        <input type='text' placeholder='Name' name='name '></input>
-        <input type='email' placeholder='Email' name= 'email '></input>
+      <form className='form-container' action="https://formsubmit.co/staceycsikos@icloud.com" method="POST">
+        <input type='text' placeholder='Name' name='name' required></input>
+        <input type='email' placeholder='Email' name= 'email' required></input>
         <textarea placeholder='Message' name= 'message '></textarea>
         <button className='send'>Send!</button>
-      </form> */}
+      </form>
     </div>
   )
 }

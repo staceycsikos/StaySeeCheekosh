@@ -1,3 +1,3 @@
-# StaySeeCheekosh
+# Stacey Csikos' Portfolio
 
-Hello! Welcome to my repo for my portfolio. It's always changing :) I'm proud of the contact form I have on this page. Looking forward to adding more projects and making this portfolio look more creative. 
+Hello! Welcome to my repo for my portfolio. It's always changing :) I'm proud of the dynamic rendering I've got going on here as it will help me from going into many files and changing information. Whenever I want to add a new project I only have to touch one file. I tried really hard to find a form that would keep the user on the page, without having to make a backend, and thanks to [Form Submit](https://formsubmit.co) I could! Looking forward to adding more projects and making this portfolio look more creative. Thanks for reading 👩‍💻 

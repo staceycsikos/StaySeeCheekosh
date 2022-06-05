@@ -34,11 +34,12 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 10px;
 }
 
 input {
-  width: 20vw;
-  font-size: 20px;
+  width: 25vw;
+  font-size: 15px;
   border: 1px solid #FFCB47;
   margin-bottom: 5px;
   border-radius: 3px;
