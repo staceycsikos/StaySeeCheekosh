@@ -13,7 +13,7 @@ export default function Contact() {
           <img src={linkedin} className="linky" /></a>
         
       </div>
-      <form className='form-container' action="https://formsubmit.co/d360e99fbbaaaff91d1fc423b5767ebb" method="POST">
+      <form className='form-container' action="https://formsubmit.co/d360e99fbbaaaff91d1fc423b5767ebb" method="POST" target="_blank">
         <input type='text' placeholder='Name' name='name' required></input>
         <input type='email' placeholder='Email' name= 'email' required></input>
         <textarea placeholder='Message' name= 'message '></textarea>
