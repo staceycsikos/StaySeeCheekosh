@@ -14,7 +14,7 @@ export default function Home() {
           return (
             <div>
               <Link to={`/project/${project.id}`}>
-                <img className='pro' src={project.image} title={project.title} />
+                <img className='pro' src={project.image} title={project.title} alt={project.title} />
                 <h3 className='intro project-intro'>
                   {project.title}
                 </h3>

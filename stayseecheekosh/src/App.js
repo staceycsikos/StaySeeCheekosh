@@ -2,8 +2,8 @@
 import './App.css';
 import Navbar from './Components/Nabar/Navbar';
 import {Route, Routes} from 'react-router-dom'
-import About from './Components/About/About';
-import Contact from './Components/Contact/Contact';
+import About from './Screen/About/About';
+import Contact from './Screen/Contact/Contact';
 import Home from './Screen/Home';
 import Project from './Components/Project/Project';
 import Projects from './Components/Projects/Projects';

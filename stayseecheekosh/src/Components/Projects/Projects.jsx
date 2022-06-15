@@ -21,8 +21,7 @@ export default function Projects() {
                   </a>
                 </div>
               </div>
-            
-            <img src={project.image} className='project'/>
+            <img src={project.image} alt={project.title} className='project'/>
           </div>
         )
       })}

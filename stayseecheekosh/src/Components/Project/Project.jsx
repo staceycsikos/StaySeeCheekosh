@@ -21,9 +21,9 @@ export default function Project() {
   return (
     <div className="project-container">
       <div className="two-container">
-        <div className="project-and-mor">
+        <div className="project-and-more">
           <a href={project.deployed} target="_blank">
-            <img src={project.image} className="specific-project" />
+            <img src={project.image} alt={project.title} className="specific-project" />
           </a>
         </div>
         <div className="description">
